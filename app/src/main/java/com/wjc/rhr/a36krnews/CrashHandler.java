@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Looper;
 import android.widget.Toast;
 
+import com.wjc.rhr.a36krnews.ui.MainActivity;
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
 

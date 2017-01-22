@@ -3,18 +3,22 @@
           package="com.wjc.rhr.a36krnews">
 
     <application
+        android:name=".TApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".TApplication"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainActivity">
+
+            <!-- <activity android:name=".ui.WelcomeActivity"> -->
         </activity>
     </application>
 
